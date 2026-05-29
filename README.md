@@ -1,11 +1,53 @@
-# React + Vite
+# Clarity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal finance dashboard built with React and TypeScript. Clarity gives you a clean, at-a-glance view of your financial health — balances, net worth, debt, spending trends, and account summaries in one place.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Total Balance, Net Worth & Total Debt** — top-level summary cards
+- **Weekly Spending Pulse** — bar chart showing daily spend for the current week
+- **Monthly Income / Bills / Spent** — key monthly figures at a glance
+- **Account Balance Cards** — per-account view with masked account numbers and balance change indicators
+
+## Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| [React 19](https://react.dev/) | UI framework |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety |
+| [Vite](https://vitejs.dev/) | Build tool & dev server |
+| [Tailwind CSS v4](https://tailwindcss.com/) | Styling |
+| [Recharts](https://recharts.org/) | Charts |
+| [Lucide React](https://lucide.dev/) | Icons |
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── App.jsx
+├── index.css
+├── main.jsx
+└── components/
+    ├── AccountBalanceCard.tsx
+    ├── NetWorthCard.tsx
+    ├── TitleAmountCard.tsx
+    ├── TotalBalanceCard.tsx
+    ├── TotalDebtCard.tsx
+    └── WeeklyOverviewCard.tsx
+```
 
 ## React Compiler
 
