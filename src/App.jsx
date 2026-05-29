@@ -1,9 +1,8 @@
-import { useState } from "react";
 import TotalBalanceCard from "./components/TotalBalanceCard";
 import NetWorthCard from "./components/NetWorthCard";
 import TotalDebtCard from "./components/TotalDebtCard";
 import WeeklyOverviewCard from "./components/WeeklyOverviewCard";
-import TitleAmountCard from "./components/titleAmountCard";
+import TitleAmountCard from "./components/TitleAmountCard";
 import AccountBalanceCard from "./components/AccountBalanceCard.tsx";
 import "./index.css";
 
