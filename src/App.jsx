@@ -31,6 +31,16 @@ function App() {
             <AccountBalanceCard  title="CHECKING ACCOUNT" balance={1000} acctNumber={123456789} />
             <AccountBalanceCard title="SAVINGS ACCOUNT" balance={5000} acctNumber={987654321} />
           </div>
+          <h1>Credit Cards</h1>
+          <div className="grid grid-cols-2 gap-4 items-stretch">
+            <AccountBalanceCard  title="CREDIT CARD 1" balance={1000} acctNumber={123456789} />
+            <AccountBalanceCard title="CREDIT CARD 2" balance={5000} acctNumber={987654321} />
+          </div>
+          <h1>Investments</h1>
+          <div className="grid grid-cols-2 gap-4 items-stretch">
+            <AccountBalanceCard  title="INVESTMENT 1" balance={1000} acctNumber={123456789} />
+            <AccountBalanceCard title="INVESTMENT 2" balance={5000} acctNumber={987654321} />
+          </div>
         </div>
       </main>
     </div>

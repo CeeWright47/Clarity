@@ -48,7 +48,7 @@ function WeeklyOverviewCard({
           <h3 className="text-2xl semi font-bold text-gray-900">
             ${amountSpentCurrentWeek.toLocaleString()}
           </h3>
-          <p className="text-4x1 text-gray-900">this week</p>
+          <p className="text-4x1 text-gray-900">Spent this week</p>
         </div>
       </div>
       <ResponsiveContainer width="100%" height={200}>
