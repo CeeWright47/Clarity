@@ -8,6 +8,10 @@ import AccountBalanceCard from "../components/AccountBalanceCard.tsx";
 function HomePage() {
   return (
     <div className="flex flex-col gap-4">
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold text-gray-900">Overview</h1>
+        <p className="text-sm text-gray-400">All accounts for {new Date().toLocaleDateString()}</p>
+      </div>
       <div className="grid grid-cols-3 gap-4 items-stretch">
         <TotalBalanceCard balance={1000} />
         <NetWorthCard networth={5000} />
